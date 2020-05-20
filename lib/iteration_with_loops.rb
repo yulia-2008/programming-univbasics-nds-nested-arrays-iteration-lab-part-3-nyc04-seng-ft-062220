@@ -12,7 +12,7 @@ def join_nested_strings(src)
   end 
   ind+=1 
 end
-string 
+result
 end
   
   
