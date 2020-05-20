@@ -15,7 +15,7 @@ end
       
       
   
-  def join_nested_strings(src)
+=begin def join_nested_strings(src)
   ind=0 
   result=""
   while ind<src.length do
@@ -29,7 +29,8 @@ end
   ind+=1 
 end
 result
-end
+end 
+=end
 
 
   
