@@ -12,7 +12,7 @@ def join_nested_strings(src)
     inner_ind=0
   while inner_ind<src[ind].length do 
     if src[ind][inner_ind].is_a?String
-      result << src[ind][inner_ind]
+      result << src[ind][inner_ind]+" "
     end
     inner_ind+=1 
   end 
