@@ -3,7 +3,7 @@ def join_nested_strings(src)
   string=""
   ind=0 
   inner_ind=0
-  while ind<array.length do
+  while ind<src.length do
   while inner_ind<array[ind].length do 
     if inner_ind.is_a(string)
       string << src[ind][inner_ind]
