@@ -1,9 +1,19 @@
 def join_nested_strings(src)
   src.flatten!
-  result=[]
+  result=" "
   ind=0 
   while ind < src.length do 
-    if src[ind]
+    if src[ind].is_a?String 
+    result << src[ind] + " "
+  end
+  ind+=1 
+end 
+result 
+end 
+
+      
+      
+      
   
   def join_nested_strings(src)
   ind=0 
