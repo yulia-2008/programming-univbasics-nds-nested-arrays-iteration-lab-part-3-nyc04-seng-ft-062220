@@ -15,6 +15,8 @@ def join_nested_strings(src)
 end
 result
 end
+
+join_nested_string([1,"h"],["g",34])
   
   
   
