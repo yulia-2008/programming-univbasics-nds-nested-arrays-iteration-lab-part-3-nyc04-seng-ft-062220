@@ -1,6 +1,6 @@
 def join_nested_strings(src)
   
-  result=""
+  result=[]
   ind=0 
   inner_ind=0
   while ind<src.length do
