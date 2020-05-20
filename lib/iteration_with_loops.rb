@@ -8,6 +8,7 @@ def join_nested_strings(src)
   def join_nested_strings(src)
   ind=0 
   inner_ind=0
+  result=[]
   while ind<src.length do
   while inner_ind<src[ind].length do 
     result
