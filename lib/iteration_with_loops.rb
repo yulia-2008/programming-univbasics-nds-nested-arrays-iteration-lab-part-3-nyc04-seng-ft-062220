@@ -5,7 +5,7 @@ def join_nested_strings(src)
   inner_ind=0
   while ind<src.length do
   while inner_ind<src[ind].length do 
-    if inner_ind.is_a(string)
+    if inner_ind.is_a?(string)
       string << src[ind][inner_ind]
     end
     inner_ind+=1 
