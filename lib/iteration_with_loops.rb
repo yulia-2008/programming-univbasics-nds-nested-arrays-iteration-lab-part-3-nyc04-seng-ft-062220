@@ -11,7 +11,7 @@ end
 result 
 end 
 
-      
+ join_nested_strings([[1,"h"],["g",34]])     
       
       
   
